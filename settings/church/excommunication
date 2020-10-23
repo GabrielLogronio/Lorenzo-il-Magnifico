@@ -1,0 +1,228 @@
+[
+  {
+    "id": "1",
+    "period": 1,
+    "effect": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.DecrementResourceEffect",
+        "INSTANCE": {
+          "resource": {
+            "resources": {
+              "MilitaryPoint": {
+                "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                "INSTANCE": {
+                  "value": 1,
+                  "id": "MilitaryPoint"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "period": 1,
+    "effect": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.DecrementResourceEffect",
+        "INSTANCE": {
+          "resource": {
+            "resources": {
+              "Coin": {
+                "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                "INSTANCE": {
+                  "value": 1,
+                  "id": "Coin"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "period": 1,
+    "effect": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.DecrementResourceEffect",
+        "INSTANCE": {
+          "resource": {
+            "resources": {
+              "Servant": {
+                "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                "INSTANCE": {
+                  "value": 1,
+                  "id": "Servant"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "period": 1,
+    "effect": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.DecrementResourceEffect",
+        "INSTANCE": {
+          "resource": {
+            "resources": {
+              "Wood": {
+                "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                "INSTANCE": {
+                  "value": 1,
+                  "id": "Wood"
+                }
+              },
+              "Stone": {
+                "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                "INSTANCE": {
+                  "value": 1,
+                  "id": "Stone"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "period": 1,
+    "effect": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FamilyInYieldBonus",
+        "INSTANCE": {
+          "cardType": "GreenCard",
+          "value": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "period": 1,
+    "effect": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FamilyInFloorBonus",
+        "INSTANCE": {
+          "cardType": "YellowCard",
+          "value": -3
+        }
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "period": 1,
+    "effect": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FamilyInSpaceBonus",
+        "INSTANCE": {
+          "familyType": "BlackFamilyMember",
+          "value": -1
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FamilyInSpaceBonus",
+        "INSTANCE": {
+          "familyType": "WhiteFamilyMember",
+          "value": -1
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FamilyInSpaceBonus",
+        "INSTANCE": {
+          "familyType": "OrangeFamilyMember",
+          "value": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "period": 2,
+    "effect": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FamilyInFloorBonus",
+        "INSTANCE": {
+          "cardType": "GreenCard",
+          "value": -4
+        }
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "period": 2,
+    "effect": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FamilyInFloorBonus",
+        "INSTANCE": {
+          "cardType": "YellowCard",
+          "value": -4
+        }
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "period": 2,
+    "effect": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FamilyInFloorBonus",
+        "INSTANCE": {
+          "cardType": "BlueCard",
+          "value": -4
+        }
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "period": 2,
+    "effect": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FamilyInFloorBonus",
+        "INSTANCE": {
+          "cardType": "PurpleCard",
+          "value": -4
+        }
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "period": 3,
+    "effect": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.DisableCardVictoryPoint",
+        "INSTANCE": {
+          "card": "BlueCard",
+          "rewards": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "period": 3,
+    "effect": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.DisableCardVictoryPoint",
+        "INSTANCE": {
+          "card": "GreenCard",
+          "rewards": {}
+        }
+      }
+    ]
+  }
+]

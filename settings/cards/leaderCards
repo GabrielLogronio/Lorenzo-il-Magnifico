@@ -1,0 +1,548 @@
+{
+  "MAX_CARD": 6,
+  "cards": {},
+  "leaderCards": [
+    {
+      "requirements": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.leaderCards.requires.CardNumberRequirement",
+          "INSTANCE": {
+            "requirement": {
+              "PurpleCard": 5
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ActiveYieldEffect",
+          "INSTANCE": {
+            "cardType": "GreenCard",
+            "value": 1
+          }
+        }
+      ],
+      "satisfied": false,
+      "activated": false,
+      "name": "Francesco Sforza",
+      "id": "LeaderCard"
+    },
+    {
+      "requirements": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.leaderCards.requires.ResourceRequirement",
+          "INSTANCE": {
+            "resources": {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 18,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+          "INSTANCE": {
+            "resource": {
+              "resources": {
+                "FaithPoint": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "FaithPoint"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "satisfied": false,
+      "activated": false,
+      "name": "Girolamo Savonarola",
+      "id": "LeaderCard"
+    },
+    {
+      "requirements": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.leaderCards.requires.ResourceRequirement",
+          "INSTANCE": {
+            "resources": {
+              "resources": {
+                "MilitaryPoint": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                  "INSTANCE": {
+                    "value": 12,
+                    "id": "MilitaryPoint"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+          "INSTANCE": {
+            "resource": {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "Coin"
+                  }
+                },
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "Wood"
+                  }
+                },
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "Stone"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "satisfied": false,
+      "activated": false,
+      "name": "Giovanni Dalle Bande Nere",
+      "id": "LeaderCard"
+    },
+    {
+      "requirements": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.leaderCards.requires.ResourceRequirement",
+          "INSTANCE": {
+            "resources": {
+              "resources": {
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 10,
+                    "id": "Wood"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+          "INSTANCE": {
+            "resource": {
+              "resources": {
+                "MilitaryPoint": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "MilitaryPoint"
+                  }
+                },
+                "VictoryPoint": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "VictoryPoint"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "satisfied": false,
+      "activated": false,
+      "name": "Sandro Botticelli",
+      "id": "LeaderCard"
+    },
+    {
+      "requirements": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.leaderCards.requires.ResourceRequirement",
+          "INSTANCE": {
+            "resources": {
+              "resources": {
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 10,
+                    "id": "Stone"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+          "INSTANCE": {
+            "resource": {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 3,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "satisfied": false,
+      "activated": false,
+      "name": "Michelangelo Buonarroti",
+      "id": "LeaderCard"
+    },
+    {
+      "requirements": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.leaderCards.requires.ResourceRequirement",
+          "INSTANCE": {
+            "resources": {
+              "resources": {
+                "Servant": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                  "INSTANCE": {
+                    "value": 15,
+                    "id": "Servant"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CouncilPrivilege",
+          "INSTANCE": {
+            "resources": [
+              {
+                "resources": {
+                  "Wood": {
+                    "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                    "INSTANCE": {
+                      "value": 1,
+                      "id": "Wood"
+                    }
+                  },
+                  "Stone": {
+                    "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                    "INSTANCE": {
+                      "value": 1,
+                      "id": "Stone"
+                    }
+                  }
+                }
+              },
+              {
+                "resources": {
+                  "Servant": {
+                    "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                    "INSTANCE": {
+                      "value": 2,
+                      "id": "Servant"
+                    }
+                  }
+                }
+              },
+              {
+                "resources": {
+                  "Coin": {
+                    "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                    "INSTANCE": {
+                      "value": 2,
+                      "id": "Coin"
+                    }
+                  }
+                }
+              },
+              {
+                "resources": {
+                  "MilitaryPoint": {
+                    "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                    "INSTANCE": {
+                      "value": 2,
+                      "id": "MilitaryPoint"
+                    }
+                  }
+                }
+              },
+              {
+                "resources": {
+                  "FaithPoint": {
+                    "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                    "INSTANCE": {
+                      "value": 1,
+                      "id": "FaithPoint"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "satisfied": false,
+      "activated": false,
+      "name": "Ludovico III Gonzaga",
+      "id": "LeaderCard"
+    },
+    {
+      "requirements": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.leaderCards.requires.CardNumberRequirement",
+          "INSTANCE": {
+            "requirement": {
+              "BlueCard": 4,
+              "GreenCard": 2
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ActiveYieldEffect",
+          "INSTANCE": {
+            "cardType": "YellowCard",
+            "value": 0
+          }
+        }
+      ],
+      "satisfied": false,
+      "activated": false,
+      "name": "Leonardo Da Vinci",
+      "id": "LeaderCard"
+    },
+    {
+      "requirements": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.leaderCards.requires.CardNumberRequirement",
+          "INSTANCE": {
+            "requirement": {
+              "PurpleCard": 4,
+              "YellowCard": 2
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CardDiscount",
+          "INSTANCE": {
+            "cardType": "PurpleCard",
+            "discount": {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 3,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CardDiscount",
+          "INSTANCE": {
+            "cardType": "BlueCard",
+            "discount": {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 3,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CardDiscount",
+          "INSTANCE": {
+            "cardType": "GreenCard",
+            "discount": {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 3,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CardDiscount",
+          "INSTANCE": {
+            "cardType": "YellowCard",
+            "discount": {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 3,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "satisfied": false,
+      "activated": false,
+      "name": "Pico Della Mirandola",
+      "id": "LeaderCard"
+    },
+    {
+      "requirements": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.leaderCards.requires.CardNumberRequirement",
+          "INSTANCE": {
+            "requirement": {
+              "PurpleCard": 2,
+              "YellowCard": 2,
+              "GreenCard": 2,
+              "BlueCard": 2
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FixFamilyValueEffect",
+          "INSTANCE": {
+            "familyType": "OrangeFamilyMember",
+            "value": 5
+          }
+        },
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FixFamilyValueEffect",
+          "INSTANCE": {
+            "familyType": "BlackFamilyMember",
+            "value": 5
+          }
+        },
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FixFamilyValueEffect",
+          "INSTANCE": {
+            "familyType": "WhiteFamilyMember",
+            "value": 5
+          }
+        }
+      ],
+      "satisfied": false,
+      "activated": false,
+      "name": "Ludovico Il Moro",
+      "id": "LeaderCard"
+    },
+    {
+      "requirements": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.leaderCards.requires.CardNumberRequirement",
+          "INSTANCE": {
+            "requirement": {
+              "YellowCard": 4,
+              "BlueCard": 2
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+          "INSTANCE": {
+            "resource": {
+              "resources": {
+                "VictoryPoint": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "VictoryPoint"
+                  }
+                },
+                "Servant": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                  "INSTANCE": {
+                    "value": 3,
+                    "id": "Servant"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "satisfied": false,
+      "activated": false,
+      "name": "Cosimo de Medici",
+      "id": "LeaderCard"
+    },
+    {
+      "requirements": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.leaderCards.requires.CardNumberRequirement",
+          "INSTANCE": {
+            "requirement": {
+              "PurpleCard": 2,
+              "GreenCard": 4
+            }
+          }
+        }
+      ],
+      "effects": [
+        {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+          "INSTANCE": {
+            "resource": {
+              "resources": {
+                "VictoryPoint": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                  "INSTANCE": {
+                    "value": 4,
+                    "id": "VictoryPoint"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "satisfied": false,
+      "activated": false,
+      "name": "Bartolomeo Colleoni",
+      "id": "LeaderCard"
+    }
+  ],
+  "limited": true
+}

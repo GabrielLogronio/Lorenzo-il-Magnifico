@@ -1,0 +1,102 @@
+{
+  "name": "Predefinito",
+  "resourceList": {
+    "resources": {
+      "Coin": {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+        "INSTANCE": {
+          "value": 5,
+          "id": "Coin"
+        }
+      },
+      "MilitaryPoint": {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+        "INSTANCE": {
+          "value": 0,
+          "id": "MilitaryPoint"
+        }
+      },
+      "Wood": {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+        "INSTANCE": {
+          "value": 2,
+          "id": "Wood"
+        }
+      },
+      "FaithPoint": {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+        "INSTANCE": {
+          "value": 0,
+          "id": "FaithPoint"
+        }
+      },
+      "VictoryPoint": {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+        "INSTANCE": {
+          "value": 0,
+          "id": "VictoryPoint"
+        }
+      },
+      "Stone": {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+        "INSTANCE": {
+          "value": 2,
+          "id": "Stone"
+        }
+      },
+      "Servant": {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+        "INSTANCE": {
+          "value": 3,
+          "id": "Servant"
+        }
+      }
+    }
+  },
+  "familyManager": {
+    "family": {
+      "WhiteFamilyMember": {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.familyMember.list.WhiteFamilyMember",
+        "INSTANCE": {
+          "DEFAULT_MODIFIER": 0,
+          "id": "WhiteFamilyMember",
+          "modifier": 0,
+          "used": false
+        }
+      },
+      "OrangeFamilyMember": {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.familyMember.list.OrangeFamilyMember",
+        "INSTANCE": {
+          "DEFAULT_MODIFIER": 0,
+          "id": "OrangeFamilyMember",
+          "modifier": 0,
+          "used": false
+        }
+      },
+      "BlackFamilyMember": {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.familyMember.list.BlackFamilyMember",
+        "INSTANCE": {
+          "DEFAULT_MODIFIER": 0,
+          "id": "BlackFamilyMember",
+          "modifier": 0,
+          "used": false
+        }
+      },
+      "NeutralFamilyMember": {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.familyMember.list.NeutralFamilyMember",
+        "INSTANCE": {
+          "DEFAULT_MODIFIER": 0,
+          "id": "NeutralFamilyMember",
+          "modifier": 0,
+          "used": false
+        }
+      }
+    }
+  },
+  "cardManager": {
+    "MAX_CARD": 6,
+    "cards": {},
+    "leaderCards": [],
+    "limited": true
+  }
+}

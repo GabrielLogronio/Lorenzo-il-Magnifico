@@ -1,0 +1,431 @@
+{
+  "towers": {
+    "YellowTower": {
+      "floors": [
+        {
+          "actionSpace": {
+            "cost": 1,
+            "penality": 0,
+            "resources": {
+              "resources": {}
+            }
+          }
+        },
+        {
+          "actionSpace": {
+            "cost": 3,
+            "penality": 0,
+            "resources": {
+              "resources": {}
+            }
+          }
+        },
+        {
+          "actionSpace": {
+            "cost": 5,
+            "penality": 0,
+            "resources": {
+              "resources": {
+                "MilitaryPoint": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "MilitaryPoint"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "actionSpace": {
+            "cost": 7,
+            "penality": 0,
+            "resources": {
+              "resources": {
+                "MilitaryPoint": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "MilitaryPoint"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "name": "YellowTower"
+    },
+    "BlueTower": {
+      "floors": [
+        {
+          "actionSpace": {
+            "cost": 1,
+            "penality": 0,
+            "resources": {
+              "resources": {}
+            }
+          }
+        },
+        {
+          "actionSpace": {
+            "cost": 3,
+            "penality": 0,
+            "resources": {
+              "resources": {}
+            }
+          }
+        },
+        {
+          "actionSpace": {
+            "cost": 5,
+            "penality": 0,
+            "resources": {
+              "resources": {
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "Stone"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "actionSpace": {
+            "cost": 7,
+            "penality": 0,
+            "resources": {
+              "resources": {
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Stone"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "name": "BlueTower"
+    },
+    "PurpleTower": {
+      "floors": [
+        {
+          "actionSpace": {
+            "cost": 1,
+            "penality": 0,
+            "resources": {
+              "resources": {}
+            }
+          }
+        },
+        {
+          "actionSpace": {
+            "cost": 3,
+            "penality": 0,
+            "resources": {
+              "resources": {}
+            }
+          }
+        },
+        {
+          "actionSpace": {
+            "cost": 5,
+            "penality": 0,
+            "resources": {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "actionSpace": {
+            "cost": 7,
+            "penality": 0,
+            "resources": {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "name": "PurpleTower"
+    },
+    "GreenTower": {
+      "floors": [
+        {
+          "actionSpace": {
+            "cost": 1,
+            "penality": 0,
+            "resources": {
+              "resources": {}
+            }
+          }
+        },
+        {
+          "actionSpace": {
+            "cost": 3,
+            "penality": 0,
+            "resources": {
+              "resources": {}
+            }
+          }
+        },
+        {
+          "actionSpace": {
+            "cost": 5,
+            "penality": 0,
+            "resources": {
+              "resources": {
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "Wood"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "actionSpace": {
+            "cost": 7,
+            "penality": 0,
+            "resources": {
+              "resources": {
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Wood"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "name": "GreenTower"
+    }
+  },
+  "diceManager": {
+    "dices": {
+      "White": {
+        "MAX_FACES": 6,
+        "DEFAULT_VALUE": 0,
+        "value": 0,
+        "name": "White"
+      },
+      "Black": {
+        "MAX_FACES": 6,
+        "DEFAULT_VALUE": 0,
+        "value": 0,
+        "name": "Black"
+      },
+      "Orange": {
+        "MAX_FACES": 6,
+        "DEFAULT_VALUE": 0,
+        "value": 0,
+        "name": "Orange"
+      }
+    }
+  },
+  "harvest": {
+    "PENALITY": 3,
+    "singleActionSpace": {
+      "cost": 1,
+      "penality": 0,
+      "resources": {
+        "resources": {}
+      }
+    },
+    "multipleActionSpace": {
+      "penality": 3,
+      "multipleActionSpace": []
+    },
+    "cardType": "GreenCard"
+  },
+  "production": {
+    "PENALITY": 3,
+    "singleActionSpace": {
+      "cost": 1,
+      "penality": 0,
+      "resources": {
+        "resources": {}
+      }
+    },
+    "multipleActionSpace": {
+      "penality": 3,
+      "multipleActionSpace": []
+    },
+    "cardType": "YellowCard"
+  },
+  "market": {
+    "THRESHOLD": 2,
+    "MAX_NUMBER": 4,
+    "playerNumber": 2,
+    "penality": 1,
+    "multipleActionSpace": [
+      {
+        "cost": 1,
+        "penality": 0,
+        "resources": {
+          "resources": {
+            "Coin": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+              "INSTANCE": {
+                "value": 5,
+                "id": "Coin"
+              }
+            }
+          }
+        }
+      },
+      {
+        "cost": 1,
+        "penality": 0,
+        "resources": {
+          "resources": {
+            "Servant": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+              "INSTANCE": {
+                "value": 5,
+                "id": "Servant"
+              }
+            }
+          }
+        }
+      },
+      {
+        "cost": 1,
+        "penality": 0,
+        "resources": {
+          "resources": {
+            "Coin": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+              "INSTANCE": {
+                "value": 2,
+                "id": "Coin"
+              }
+            },
+            "MilitaryPoint": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+              "INSTANCE": {
+                "value": 3,
+                "id": "MilitaryPoint"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "councilPalace": {
+    "bonus": {
+      "resources": {
+        "Coin": {
+          "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+          "INSTANCE": {
+            "value": 1,
+            "id": "Coin"
+          }
+        }
+      }
+    },
+    "effects": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CouncilPrivilege",
+        "INSTANCE": {
+          "resources": [
+            {
+              "resources": {
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "Wood"
+                  }
+                },
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "Stone"
+                  }
+                }
+              }
+            },
+            {
+              "resources": {
+                "Servant": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Servant"
+                  }
+                }
+              }
+            },
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Coin"
+                  }
+                }
+              }
+            },
+            {
+              "resources": {
+                "MilitaryPoint": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "MilitaryPoint"
+                  }
+                }
+              }
+            },
+            {
+              "resources": {
+                "FaithPoint": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "FaithPoint"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "penality": 1,
+    "multipleActionSpace": []
+  },
+  "alreadyUsed": []
+}

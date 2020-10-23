@@ -1,0 +1,147 @@
+[
+  {
+    "CLASSNAME": "it.polimi.ingsw.ps11.model.gameLogics.actions.endGame.PointByCardAction",
+    "INSTANCE": {
+      "card": "GreenCard",
+      "rewards": {
+        "3": {
+          "resources": {
+            "VictoryPoint": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+              "INSTANCE": {
+                "value": 1,
+                "id": "VictoryPoint"
+              }
+            }
+          }
+        },
+        "4": {
+          "resources": {
+            "VictoryPoint": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+              "INSTANCE": {
+                "value": 4,
+                "id": "VictoryPoint"
+              }
+            }
+          }
+        },
+        "5": {
+          "resources": {
+            "VictoryPoint": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+              "INSTANCE": {
+                "value": 10,
+                "id": "VictoryPoint"
+              }
+            }
+          }
+        },
+        "6": {
+          "resources": {
+            "VictoryPoint": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+              "INSTANCE": {
+                "value": 20,
+                "id": "VictoryPoint"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "CLASSNAME": "it.polimi.ingsw.ps11.model.gameLogics.actions.endGame.PointByCardAction",
+    "INSTANCE": {
+      "card": "BlueCard",
+      "rewards": {
+        "1": {
+          "resources": {
+            "VictoryPoint": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+              "INSTANCE": {
+                "value": 1,
+                "id": "VictoryPoint"
+              }
+            }
+          }
+        },
+        "2": {
+          "resources": {
+            "VictoryPoint": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+              "INSTANCE": {
+                "value": 3,
+                "id": "VictoryPoint"
+              }
+            }
+          }
+        },
+        "3": {
+          "resources": {
+            "VictoryPoint": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+              "INSTANCE": {
+                "value": 6,
+                "id": "VictoryPoint"
+              }
+            }
+          }
+        },
+        "4": {
+          "resources": {
+            "VictoryPoint": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+              "INSTANCE": {
+                "value": 10,
+                "id": "VictoryPoint"
+              }
+            }
+          }
+        },
+        "5": {
+          "resources": {
+            "VictoryPoint": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+              "INSTANCE": {
+                "value": 15,
+                "id": "VictoryPoint"
+              }
+            }
+          }
+        },
+        "6": {
+          "resources": {
+            "VictoryPoint": {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+              "INSTANCE": {
+                "value": 21,
+                "id": "VictoryPoint"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "CLASSNAME": "it.polimi.ingsw.ps11.model.gameLogics.actions.endGame.IncrementEvryResource",
+    "INSTANCE": {
+      "value": 5,
+      "target": [
+        "Wood",
+        "Stone",
+        "Coin",
+        "Servant"
+      ],
+      "resourceToAdd": {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+        "INSTANCE": {
+          "value": 1,
+          "id": "VictoryPoint"
+        }
+      }
+    }
+  }
+]

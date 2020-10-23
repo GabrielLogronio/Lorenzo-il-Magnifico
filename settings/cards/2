@@ -1,0 +1,2421 @@
+{
+  "MAX_CARD": 6,
+  "cards": {
+    "PurpleCard": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.PurpleCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 4,
+                    "id": "Wood"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Servant": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                      "INSTANCE": {
+                        "value": 5,
+                        "id": "Servant"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ResourceAtTheEnd",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 4,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Hosting Foreigners",
+          "id": "PurpleCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.PurpleCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 4,
+                    "id": "Stone"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "MilitaryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                      "INSTANCE": {
+                        "value": 3,
+                        "id": "MilitaryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CouncilPrivilege",
+              "INSTANCE": {
+                "resources": [
+                  {
+                    "resources": {
+                      "Wood": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Wood"
+                        }
+                      },
+                      "Stone": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Stone"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Servant": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Servant"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Coin": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Coin"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "MilitaryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "MilitaryPoint"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "FaithPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "FaithPoint"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ResourceAtTheEnd",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Building the Bastions",
+          "id": "PurpleCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.PurpleCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "MilitaryPoint": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                  "INSTANCE": {
+                    "value": 4,
+                    "id": "MilitaryPoint"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Coin": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                      "INSTANCE": {
+                        "value": 5,
+                        "id": "Coin"
+                      }
+                    },
+                    "FaithPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "FaithPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ResourceAtTheEnd",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 5,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Crusade",
+          "id": "PurpleCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.PurpleCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "MilitaryPoint": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                  "INSTANCE": {
+                    "value": 4,
+                    "id": "MilitaryPoint"
+                  }
+                }
+              }
+            },
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 3,
+                    "id": "Coin"
+                  }
+                },
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Wood"
+                  }
+                },
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Stone"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "FaithPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                      "INSTANCE": {
+                        "value": 3,
+                        "id": "FaithPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ResourceAtTheEnd",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 4,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Support to the Cardinal",
+          "id": "PurpleCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.PurpleCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "MilitaryPoint": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                  "INSTANCE": {
+                    "value": 3,
+                    "id": "MilitaryPoint"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Coin": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                      "INSTANCE": {
+                        "value": 5,
+                        "id": "Coin"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CouncilPrivilege",
+              "INSTANCE": {
+                "resources": [
+                  {
+                    "resources": {
+                      "Wood": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Wood"
+                        }
+                      },
+                      "Stone": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Stone"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Servant": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Servant"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Coin": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Coin"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "MilitaryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "MilitaryPoint"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "FaithPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "FaithPoint"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ResourceAtTheEnd",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 3,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Support to the King",
+          "id": "PurpleCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.PurpleCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Coin"
+                  }
+                },
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Wood"
+                  }
+                },
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Stone"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "FaithPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "FaithPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ResourceAtTheEnd",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 6,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Repairing the Abbey",
+          "id": "PurpleCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.PurpleCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 3,
+                    "id": "Coin"
+                  }
+                },
+                "Servant": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Servant"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ActiveYieldEffect",
+              "INSTANCE": {
+                "cardType": "GreenCard",
+                "value": 4
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ResourceAtTheEnd",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 5,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Improving the Canals",
+          "id": "PurpleCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.PurpleCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 6,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "MilitaryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                      "INSTANCE": {
+                        "value": 6,
+                        "id": "MilitaryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ResourceAtTheEnd",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 5,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Hiring Soldiers",
+          "id": "PurpleCard"
+        }
+      }
+    ],
+    "YellowCard": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.YellowCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "Wood"
+                  }
+                }
+              }
+            },
+            {
+              "resources": {
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "Stone"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 3,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ExchangeEffect",
+              "INSTANCE": {
+                "res1": [
+                  {
+                    "resources": {
+                      "Coin": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Coin"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "res2": [
+                  {
+                    "resources": {
+                      "MilitaryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                        "INSTANCE": {
+                          "value": 3,
+                          "id": "MilitaryPoint"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "name": "Barracks",
+          "id": "YellowCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.YellowCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 3,
+          "costs": [
+            {
+              "resources": {
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 3,
+                    "id": "Wood"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 4,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ExchangeEffect",
+              "INSTANCE": {
+                "res1": [
+                  {
+                    "resources": {
+                      "Coin": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Coin"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Coin": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Coin"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "res2": [
+                  {
+                    "resources": {
+                      "VictoryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                        "INSTANCE": {
+                          "value": 3,
+                          "id": "VictoryPoint"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "VictoryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                        "INSTANCE": {
+                          "value": 5,
+                          "id": "VictoryPoint"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "name": "Treasury",
+          "id": "YellowCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.YellowCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 6,
+          "costs": [
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Coin"
+                  }
+                }
+              }
+            },
+            {
+              "resources": {
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Wood"
+                  }
+                }
+              }
+            },
+            {
+              "resources": {
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Stone"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 8,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "MilitaryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "MilitaryPoint"
+                      }
+                    },
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Stronghold",
+          "id": "YellowCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.YellowCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 2,
+          "costs": [
+            {
+              "resources": {
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 3,
+                    "id": "Stone"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "FaithPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "FaithPoint"
+                      }
+                    },
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ExchangeEffect",
+              "INSTANCE": {
+                "res1": [],
+                "res2": []
+              }
+            }
+          ],
+          "name": "Baptistery",
+          "id": "YellowCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.YellowCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 3,
+          "costs": [
+            {
+              "resources": {
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Wood"
+                  }
+                }
+              }
+            },
+            {
+              "resources": {
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "Stone"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 3,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ExchangeEffect",
+              "INSTANCE": {
+                "res1": [
+                  {
+                    "resources": {
+                      "Coin": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                        "INSTANCE": {
+                          "value": 3,
+                          "id": "Coin"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "FaithPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "FaithPoint"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "res2": [
+                  {
+                    "resources": {
+                      "Wood": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Wood"
+                        }
+                      },
+                      "Stone": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Stone"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Coin": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Coin"
+                        }
+                      },
+                      "VictoryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "VictoryPoint"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "name": "Marketplace",
+          "id": "YellowCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.YellowCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 4,
+          "costs": [
+            {
+              "resources": {
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 4,
+                    "id": "Wood"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 5,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ExchangeEffect",
+              "INSTANCE": {
+                "res1": [
+                  {
+                    "resources": {
+                      "Wood": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Wood"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Wood": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                        "INSTANCE": {
+                          "value": 3,
+                          "id": "Wood"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "res2": [
+                  {
+                    "resources": {
+                      "VictoryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                        "INSTANCE": {
+                          "value": 3,
+                          "id": "VictoryPoint"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "VictoryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                        "INSTANCE": {
+                          "value": 7,
+                          "id": "VictoryPoint"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "name": "Painters Guild",
+          "id": "YellowCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.YellowCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 4,
+          "costs": [
+            {
+              "resources": {
+                "Wood": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                  "INSTANCE": {
+                    "value": 1,
+                    "id": "Wood"
+                  }
+                }
+              }
+            },
+            {
+              "resources": {
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 2,
+                    "id": "Stone"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 4,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ExchangeEffect",
+              "INSTANCE": {
+                "res1": [
+                  {
+                    "resources": {
+                      "Wood": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Wood"
+                        }
+                      },
+                      "Stone": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Stone"
+                        }
+                      },
+                      "Servant": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Servant"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "res2": [
+                  {
+                    "resources": {
+                      "VictoryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                        "INSTANCE": {
+                          "value": 3,
+                          "id": "VictoryPoint"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "name": "Stonemasons Guild",
+          "id": "YellowCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.YellowCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 5,
+          "costs": [
+            {
+              "resources": {
+                "Stone": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                  "INSTANCE": {
+                    "value": 4,
+                    "id": "Stone"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "VictoryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                      "INSTANCE": {
+                        "value": 6,
+                        "id": "VictoryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.ExchangeEffect",
+              "INSTANCE": {
+                "res1": [
+                  {
+                    "resources": {
+                      "Stone": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Stone"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Stone": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                        "INSTANCE": {
+                          "value": 3,
+                          "id": "Stone"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "res2": [
+                  {
+                    "resources": {
+                      "VictoryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                        "INSTANCE": {
+                          "value": 3,
+                          "id": "VictoryPoint"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "VictoryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.VictoryPoint",
+                        "INSTANCE": {
+                          "value": 7,
+                          "id": "VictoryPoint"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "name": "Sculptors Guild",
+          "id": "YellowCard"
+        }
+      }
+    ],
+    "GreenCard": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.GreenCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Coin": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "Coin"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Coin": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "Coin"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Gold Mine",
+          "id": "GreenCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.GreenCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 3,
+          "costs": [],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Wood": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "Wood"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Stone": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                      "INSTANCE": {
+                        "value": 3,
+                        "id": "Stone"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Rock Pit",
+          "id": "GreenCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.GreenCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 3,
+          "costs": [],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Servant": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "Servant"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "MilitaryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "MilitaryPoint"
+                      }
+                    },
+                    "Wood": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "Wood"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Mountain Town",
+          "id": "GreenCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.GreenCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 4,
+          "costs": [],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Wood": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "Wood"
+                      }
+                    },
+                    "Servant": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "Servant"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Coin": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "Coin"
+                      }
+                    },
+                    "Wood": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "Wood"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Estate",
+          "id": "GreenCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.GreenCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 5,
+          "costs": [],
+          "instantEffect": [],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "MilitaryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "MilitaryPoint"
+                      }
+                    },
+                    "Servant": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "Servant"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Manor House",
+          "id": "GreenCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.GreenCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 6,
+          "costs": [],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Coin": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                      "INSTANCE": {
+                        "value": 4,
+                        "id": "Coin"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Coin": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "Coin"
+                      }
+                    },
+                    "Wood": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "Wood"
+                      }
+                    },
+                    "Stone": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "Stone"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Dukedom",
+          "id": "GreenCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.GreenCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 4,
+          "costs": [],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Servant": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "Servant"
+                      }
+                    },
+                    "Stone": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "Stone"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "Servant": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "Servant"
+                      }
+                    },
+                    "Stone": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "Stone"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Mining Town",
+          "id": "GreenCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.GreenCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 2,
+          "costs": [],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "FaithPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "FaithPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "FaithPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "FaithPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "name": "Hermitage",
+          "id": "GreenCard"
+        }
+      }
+    ],
+    "BlueCard": [
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.BlueCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 5,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "FaithPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                      "INSTANCE": {
+                        "value": 3,
+                        "id": "FaithPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [],
+          "name": "Papal Messenger",
+          "id": "BlueCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.BlueCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 4,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FamilyInYieldBonus",
+              "INSTANCE": {
+                "cardType": "GreenCard",
+                "value": 3
+              }
+            }
+          ],
+          "name": "Peasant",
+          "id": "BlueCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.BlueCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 5,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CouncilPrivilege",
+              "INSTANCE": {
+                "resources": [
+                  {
+                    "resources": {
+                      "Wood": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Wood"
+                        }
+                      },
+                      "Stone": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Stone"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Servant": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Servant"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Coin": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Coin"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "MilitaryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "MilitaryPoint"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "FaithPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "FaithPoint"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CouncilPrivilege",
+              "INSTANCE": {
+                "resources": [
+                  {
+                    "resources": {
+                      "Wood": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Wood"
+                        }
+                      },
+                      "Stone": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Stone"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Servant": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Servant"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Coin": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Coin"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "MilitaryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "MilitaryPoint"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "FaithPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "FaithPoint"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CouncilPrivilege",
+              "INSTANCE": {
+                "resources": [
+                  {
+                    "resources": {
+                      "Wood": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Wood"
+                        }
+                      },
+                      "Stone": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Stone"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Servant": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Servant"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Coin": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Coin"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "MilitaryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "MilitaryPoint"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "FaithPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "FaithPoint"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "permanentEffect": [],
+          "name": "Royal Messenger",
+          "id": "BlueCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.BlueCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 3,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AnotherCard",
+              "INSTANCE": {
+                "cardType": "BlueCard",
+                "value": 6
+              }
+            },
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CardDiscount",
+              "INSTANCE": {
+                "cardType": "BlueCard",
+                "discount": {
+                  "resources": {
+                    "Coin": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "Coin"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [],
+          "name": "Patron",
+          "id": "BlueCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.BlueCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 4,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AddResourceEffect",
+              "INSTANCE": {
+                "resource": {
+                  "resources": {
+                    "MilitaryPoint": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                      "INSTANCE": {
+                        "value": 2,
+                        "id": "MilitaryPoint"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AnotherCard",
+              "INSTANCE": {
+                "cardType": "GreenCard",
+                "value": 6
+              }
+            }
+          ],
+          "permanentEffect": [],
+          "name": "Captain",
+          "id": "BlueCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.BlueCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 4,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [],
+          "permanentEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.FamilyInYieldBonus",
+              "INSTANCE": {
+                "cardType": "YellowCard",
+                "value": 3
+              }
+            }
+          ],
+          "name": "Scholar",
+          "id": "BlueCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.BlueCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 4,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AnotherCard",
+              "INSTANCE": {
+                "cardType": "YellowCard",
+                "value": 6
+              }
+            },
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CardDiscount",
+              "INSTANCE": {
+                "cardType": "YellowCard",
+                "discount": {
+                  "resources": {
+                    "Wood": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "Wood"
+                      }
+                    },
+                    "Stone": {
+                      "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                      "INSTANCE": {
+                        "value": 1,
+                        "id": "Stone"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "permanentEffect": [],
+          "name": "Architect",
+          "id": "BlueCard"
+        }
+      },
+      {
+        "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.list.BlueCard",
+        "INSTANCE": {
+          "DEFAULT_VALUE": 1,
+          "period": 2,
+          "activeValue": 1,
+          "costs": [
+            {
+              "resources": {
+                "Coin": {
+                  "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                  "INSTANCE": {
+                    "value": 4,
+                    "id": "Coin"
+                  }
+                }
+              }
+            }
+          ],
+          "instantEffect": [
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.CouncilPrivilege",
+              "INSTANCE": {
+                "resources": [
+                  {
+                    "resources": {
+                      "Wood": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Wood",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Wood"
+                        }
+                      },
+                      "Stone": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Stone",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "Stone"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Servant": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Servant",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Servant"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "Coin": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.Coin",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "Coin"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "MilitaryPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.MilitaryPoint",
+                        "INSTANCE": {
+                          "value": 2,
+                          "id": "MilitaryPoint"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "resources": {
+                      "FaithPoint": {
+                        "CLASSNAME": "it.polimi.ingsw.ps11.model.resources.list.FaithPoint",
+                        "INSTANCE": {
+                          "value": 1,
+                          "id": "FaithPoint"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "CLASSNAME": "it.polimi.ingsw.ps11.model.cards.effects.AnotherCard",
+              "INSTANCE": {
+                "cardType": "PurpleCard",
+                "value": 6
+              }
+            }
+          ],
+          "permanentEffect": [],
+          "name": "Hero",
+          "id": "BlueCard"
+        }
+      }
+    ]
+  },
+  "leaderCards": [],
+  "limited": false
+}
